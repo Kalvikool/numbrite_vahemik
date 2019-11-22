@@ -1,0 +1,16 @@
+a = int(input("Sisesta number:  "))
+
+if ( a % 2) != 0:
+        print("Arv " +str(a)+ " EI SOBI: Paaritu arv.")
+  
+elif ( a >= 2 and a <=5):
+            print("Arv "+str(a)+ " SOBIB: Jääb 2-5 vahele")
+    
+elif ( a >= 6 and a <= 20):
+            print("Arv "+str(a)+ " EI SOBI: Jääb 6-20 vahele")
+
+elif ( a > 20):
+        print("Arv "+str(a)+ " SOBIB: on suurem kahekümnest")
+
+else:
+          print("Arv "+str(a)+ " On paarisarv")
